@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@500&family=Playfair+Display:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Weather App</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="current-info">
+
+            <div class="date-container">
+                <div class="time" id="time">
+                    <span id="am-pm">PM</span>
+                </div>
+                <div class="date" id="date">
+                    
+                </div>
+                <div class="weather-forecast" id="weather-forecast">
+                    <div class="weather-forecast-info">
+                    <div id="today"></div>
+                    <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" id="current-w-icon">
+                            <div id="currentMaxTemp"></div>
+                            <div id="currentMinTemp"></div>
+                            <div id="currentWind"></div>
+                            <div id="currentUV"></div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="input">
+                <input id="inputValue" type="text" class="inputValue" placeholder="Enter City"/>
+                <input id="submitBtn" type="submit" value="submit">
+                <div id="search-history"></div>
+            </div>
+        </div>
+
+        
+    </div>
+    <div class="future-weather">
+        
+        
+        
+
+        <div class="weather-forecast-info">
+            <div id="day2"></div>
+            <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+                    <div id="day2MaxTemp"></div>
+                    <div id="day2MinTemp"></div>
+                    <div id="day2Wind"></div>
+                    <div id="day2UV"></div>
+        </div>
+
+        <div class="weather-forecast-info">
+            <div id="day3"></div>
+            <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+                    <div id="day3MaxTemp"></div>
+                    <div id="day3MinTemp"></div>
+                    <div id="day3Wind"></div>
+                    <div id="day3UV"></div>
+        </div>
+
+        <div class="weather-forecast-info">
+            <div id="day4"></div>
+            <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+                    <div id="day4MaxTemp"></div>
+                    <div id="day4MinTemp"></div>
+                    <div id="day4Wind"></div>
+                    <div id="day4UV"></div>
+        </div>
+
+
+        <div class="weather-forecast-info">
+            <div id="day5"></div>
+            <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+                    <div id="day5MaxTemp"></div>
+                    <div id="day5MinTemp"></div>
+                    <div id="day5Wind"></div>
+                    <div id="day5UV"></div>
+        </div>
+
+        <div class="weather-forecast-info">
+            <div id="day6"></div>
+            <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+            <div id="day6MaxTemp"></div>
+            <div id="day6MinTemp"></div>
+            <div id="day6Wind"></div>
+            <div id="day6UV"></div>
+        </div>
+    </div>
+
+    <div class="searches"></div>
+        <div id="city1"></div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
